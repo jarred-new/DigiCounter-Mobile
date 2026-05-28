@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <item
+        android:id="@+id/openMenu"
+        android:title="Open File"/>
+	<item
+        android:id="@+id/saveMenu"
+        android:title="Save File"/>
+	<item
+        android:id="@+id/aboutMenu"
+        android:title="About App"/>
+	<item
+        android:id="@+id/exitMenu"
+        android:title="Exit..."/>
+    
+</menu>

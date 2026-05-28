@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<Toolbar
+		android:id="@+id/aboutToolbar"
+		android:layout_width="match_parent"
+		android:layout_height="?android:attr/actionBarSize"
+		android:background="?android:attr/colorPrimary"
+		android:elevation="4dp"/>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:gravity="center">
+
+		<ImageView
+			android:id="@+id/aboutImageView"
+			android:layout_width="match_parent"
+			android:layout_height="100dp"
+			android:src="@drawable/version"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="DigiCounter v 1.0"
+			android:textStyle="bold"
+			android:textSize="24sp"/>
+
+		<TextView
+			android:id="@+id/activity_aboutTextView1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Thank you for chosing this app!"
+			android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+		<TextView
+			android:id="@+id/activity_aboutTextView2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="If you want to have feedback for this app, contact"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:gravity="center"/>
+
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="reyesgavinjarred@gmail.com"
+			android:id="@+id/emailButton"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
